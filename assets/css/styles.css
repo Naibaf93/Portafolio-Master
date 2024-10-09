@@ -20,7 +20,7 @@ html {
 
 body {
     width: 100%;
-    height: auto;
+    height: 100%;
     font-family: "Poppins", Helvetica, sans-serif;
     font-size: 1.5rem;
     background-color: var(--color-background);
@@ -31,4 +31,23 @@ h1, h2, h3, h4, h5, h6{
     color: var(--color-titles);
 }
 
-/*Estructura principal*/
+/*  Estructura principal  */
+
+.layout{
+    position: relative;
+    min-width: 1290px;
+    width: 75%;
+    height: 80vh;
+    min-height: 80vh;
+    margin: 10vh auto;
+
+    display: grid;
+    grid-template-areas: "aside content";
+    grid-template-columns: 30% 70%;
+
+    /* Sombre detras del layout */
+    border-radius: 4rem;
+    box-shadow: 0 0 100px -5px rgba(0, 0, 0, 0.25 );
+    
+}
+
