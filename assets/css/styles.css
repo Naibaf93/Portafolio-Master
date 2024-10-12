@@ -269,3 +269,14 @@ body {
     opacity: 1;
     right: 100%;  
 }
+
+/* About */
+
+.content__about{
+    height: 100%;
+    min-height: 100%;
+    padding: 6rem;
+    padding-right: 3rem;
+    overflow: auto;
+    display: block;
+}
