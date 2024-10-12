@@ -477,3 +477,38 @@ body {
     opacity: 0.5;
     color: var(--color-secondary);
 }
+
+/* Clientes */
+
+.about__clients{
+    width: 100%;
+    margin-bottom: 5rem;
+
+}
+
+.clients__header{
+    margin-bottom: 3rem;
+}
+
+.clients__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.clients__link{
+    display: block;
+    width: 100%;
+    opacity: 0.7;
+    transition: all 300ms ease-in-out;
+}
+
+.clients__link:hover{
+   opacity: 1;    
+}
+
+.clients__image{
+    width: 145px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
