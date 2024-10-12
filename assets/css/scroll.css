@@ -1,0 +1,7 @@
+/* Scroll para firefox */
+
+/* Scroll Chrome */
+
+.content__page::-webkit-scrollbar{
+    width: 25px;
+}
