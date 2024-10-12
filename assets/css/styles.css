@@ -346,12 +346,14 @@ body {
 
 /* Estilos compartidos about */
 .about__services,
-.about__reviews {
+.about__reviews,
+.about__clients {
     width: 100%;
     margin-bottom: 3rem;
 }
 .services__header,
-.reviews__header{
+.reviews__header,
+.clients__header{
     display: inline-block;
     padding-right: 1.2rem;
     margin-bottom: 2.5rem;
@@ -359,12 +361,14 @@ body {
 }
 
 .services__title,
-.reviews__title{
+.reviews__title,
+.clients__title{
     font-size: 2.1rem;
 }
 
 .services__title::after,
-.reviews__title::after{
+.reviews__title::after,
+.clients__title::after{
     content: "";
     position: absolute;
     top: 15px;
