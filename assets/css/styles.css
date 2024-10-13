@@ -348,14 +348,16 @@ body {
 .about__services,
 .about__reviews,
 .about__clients,
-.about__prices {
+.about__prices,
+.about__extra {
     width: 100%;
     margin-bottom: 3rem;
 }
 .services__header,
 .reviews__header,
 .clients__header,
-.prices__header{
+.prices__header,
+.extra__header {
     display: inline-block;
     padding-right: 1.2rem;
     margin-bottom: 2.5rem;
@@ -365,14 +367,16 @@ body {
 .services__title,
 .reviews__title,
 .clients__title,
-.prices__title{
+.prices__title,
+.extra__title{
     font-size: 2.1rem;
 }
 
 .services__title::after,
 .reviews__title::after,
 .clients__title::after,
-.prices__title::after{
+.prices__title::after,
+.extra__title::after{
     content: "";
     position: absolute;
     top: 15px;
