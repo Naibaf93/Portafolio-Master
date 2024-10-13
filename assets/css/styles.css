@@ -582,7 +582,7 @@ body {
 
 .prices__buy{
     padding-top: 2.5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 2rem;
 }
 
 .prices__btn{
@@ -598,4 +598,9 @@ body {
     background-color: var(--color-secondary);
     color: var(--color-principal);
     border: 2px solid var(--color-secondary);
+}
+
+.prices__reward{
+    font-size: 1.4rem;
+    padding: 0.6rem 0;
 }
