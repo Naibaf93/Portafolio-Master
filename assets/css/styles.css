@@ -885,3 +885,34 @@ body {
     font-size: 1.2rem;
     color: var(--color-subtitle);
 }
+
+/*Portfolio*/
+
+.portfolio__navbar{
+    margin-bottom: 3rem;
+}
+
+.portfolio__menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.portfolio__option{
+    font-size: 1.4rem;
+    opacity: 0.7;
+}
+
+.portfolio__option--active{
+    opacity: 1;
+}
+
+.portfolio__link{
+    cursor: pointer;
+}
+
+.portfolio__link:hover{
+    color:  var(--color-secondary);
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.25);
+}
