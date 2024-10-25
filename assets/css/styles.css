@@ -1138,8 +1138,10 @@ body {
     border-radius: 0.5rem;
     outline: none;
     box-shadow: 0 1rem 1rem -0.8rem rgba(0, 0, 0, 0.15);
+    background: 0 0;
     background-color: transparent;
     line-height: 2.1rem;
+    z-index: 1;
 }
 
 .form__input:focus{
@@ -1161,6 +1163,14 @@ body {
     z-index: 1;
     font-size: 1.3rem;
     color: var(--color-secondary);
+}
+
+.form__input::-moz-placeholder{
+    color: transparent;
+}
+
+.form__input::-webkit-input-placeholder{
+    color: transparent;
 }
 
 .form__rigth{
