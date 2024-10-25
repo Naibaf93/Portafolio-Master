@@ -320,7 +320,7 @@ body {
 .resume__title::after,
 .portfolio__title::after,
 .blog__title::after,
-.contact__title::after{
+.contact__title::after{ 
     content: "";
     position: absolute;
     top: 40px;
