@@ -1124,7 +1124,7 @@ body {
 
 .form__group{
     position: relative;
-    margin-bottom: 2.15rem;
+    margin-bottom: 2.5rem;
 }
 
 .form__input{
@@ -1139,6 +1139,7 @@ body {
     outline: none;
     box-shadow: 0 1rem 1rem -0.8rem rgba(0, 0, 0, 0.15);
     background-color: transparent;
+    line-height: 2.1rem;
 }
 
 .form__input:focus{
@@ -1146,7 +1147,20 @@ body {
 }
 
 .form__label{
+    position: absolute;
+    top: 1rem;
+    left: 1.5rem;
+    z-index: -1;
+    color: var(--color-company);
+    transition: all 300ms ease-in-out;
+}
 
+.form__input:focus~label{
+    top: -2rem;
+    left: 0;
+    z-index: 1;
+    font-size: 1.3rem;
+    color: var(--color-secondary);
 }
 
 .form__rigth{
@@ -1155,8 +1169,12 @@ body {
     max-height: 100%;
 }
 
+.form__group--textarea{
+    height: 100%;
+}
+
 .form__input--textarea{
     display: block;
     resize: none;
-    height: auto;
+    height: 90%;
 }
