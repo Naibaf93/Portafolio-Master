@@ -90,7 +90,7 @@ body {
 .user-info__container-image{
     position: relative;
     display: inline-block;
-    width: 22rem;
+    width: 30rem;
     margin-top: 5rem;
     z-index: 1;
 }
@@ -122,12 +122,12 @@ body {
 .user-info__name {
     margin-top: 2.6rem;
     color: var(--color-principal);
-    font-size: 3.2rem;
+    font-size: 4rem;
     font-weight: bold;
 }
 
 .user-info__job{
-    font-size: 1.7rem;
+    font-size: 2rem;
     font-weight: 200;
     color: var(--color-principal);
 }
@@ -146,7 +146,7 @@ body {
 .social__option{
     height: 4rem;
     width: 4rem;
-    font-size: 2.2rem;
+    font-size: 3rem;
     line-height: 4.2rem;
     opacity: 0.9;
     border-radius: 3rem;
@@ -169,6 +169,8 @@ body {
     padding-bottom: 2rem;
     border: 2px solid var(--color-principal);
     border-radius: 3.2rem;
+    font-size: 1.8rem;
+    font-weight: 500;
     color: var(--color-principal);
     box-shadow: 0 10px 10px -4px rgba(0, 0, 0, 0.22);
     transition: all 300ms ease-in-out;
@@ -182,7 +184,7 @@ body {
 .user-info__footer{
     position: absolute;
     bottom: 2rem;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
 }
 
 /* Contenedor pincipal */
@@ -206,12 +208,12 @@ body {
 }
 
 .page__name{
-    font-size: 6rem;
+    font-size: 8rem;
     margin-bottom: 1rem;
 }
 
 .page__job{
-    font-size: 2.1rem;
+    font-size: 3rem;
     font-weight: lighter;
     color: var(--color-subtitle);
 }
@@ -233,9 +235,9 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 60%;
-    min-height: 32rem;
-    padding: 2rem 0;
-    margin-left: 2.5rem;
+    min-height: 35rem;
+    padding: 3rem 0;
+    margin-left: 12rem;
     background-color: var(--color-principal);
     box-shadow: 0 0 3rem -0.5rem rgba(0, 0, 0, 0.15);
     border-radius: 6rem;
@@ -249,7 +251,7 @@ body {
 
 .menu__icon {
     color: var(--color-icon);
-    font-size: 2.8rem;
+    font-size: 3rem;
     transition: all 300ms ease-in-out;
 }
 
@@ -268,11 +270,12 @@ body {
     margin-top: -3rem;
     opacity: 0;
     display: block;
-    padding: 0.5rem 1rem;
+    padding: 1rem 2rem;
     color: var(--color-principal);
     background-color: var(--color-secondary);
     white-space: nowrap;
     transition: all 300ms ease-in-out;
+    font-size: 1.7rem;
 }
 
 .menu__option:hover .menu__overlay{
@@ -309,7 +312,7 @@ body {
 .portfolio__title,
 .blog__title,
 .contact__title{
-    font-size: 3.2rem;
+    font-size: 5rem;
     position: relative;
 }
 
@@ -320,9 +323,9 @@ body {
 .contact__title::after{
     content: "";
     position: absolute;
-    top: 20px;
+    top: 40px;
     right: -25px;
-    width: 50px;
+    width: 60px;
     height: 30px;
     background-image: -webkit-repeating-radial-gradient(center center, var(--color-secondary), var(--color-secondary) 1px, transparent 0px, transparent 100%);
     background-size: 6px 6px;
@@ -347,13 +350,14 @@ body {
 }
 
 .personal-info__description{
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     line-height: 2.4rem;
 }
 
 .personal-info__data{
     flex-basis: 44%;
     padding: 0 1.5rem;
+    font-size: 2rem;
 }
 
 .personal-info__option{
@@ -377,6 +381,7 @@ body {
     width: 100%;
     margin-bottom: 3rem;
 }
+
 .services__header,
 .reviews__header,
 .clients__header,
@@ -397,7 +402,7 @@ body {
 .extra__title,
 .resume__subtitle,
 .form-header__title{
-    font-size: 2.1rem;
+    font-size: 3.5rem;
 }
 
 .services__title::after,
@@ -409,7 +414,7 @@ body {
 .form-header__title::after{
     content: "";
     position: absolute;
-    top: 15px;
+    top: 35px;
     right: 0px;
     width: 50px;
     height: 20px;
@@ -437,12 +442,12 @@ body {
 }
 
 .service__title{
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin: 0.5rem 0;
 }
 
 .service__description{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     text-align: justify;
 }
 
@@ -468,17 +473,16 @@ body {
     margin-bottom: 1rem;
 }
 
-.review__iamge-container{
+.review__image-container{
     width: 100%;
-
 }
 
 .review__image{
-    max-width: 9rem;
-    max-height: 9rem;
+    max-width: 12rem;
+    max-height: 12rem;
     border-radius: 9rem;
     margin: 0 auto;
-    margin-top: -4.5rem;
+    margin-top: -6.5rem;
     margin-bottom: 2rem;
     box-shadow: 0 10px 10px -2px rgba(0, 0, 0, 0.22);
 }
@@ -488,7 +492,7 @@ body {
 }
 
 .review__text{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     line-height: 2.4rem;
 }
 
@@ -501,13 +505,13 @@ body {
 
 .review__name{
     margin-bottom: 0.5rem;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 .review__company{
     color: var(--color-company);
     font-weight: 300;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
 }
 
 .review__icon{
@@ -587,6 +591,8 @@ body {
 .prices__text{
     position: relative;
     display: inline-block;
+    font-size: 2.2rem;
+    font-weight: 700;
 }
 
 .prices__box:hover .prices__text::after{
@@ -613,6 +619,8 @@ body {
 .prices__advice{
     display: block;
     color: var(--color-subtitle);
+    padding-top: 1rem;
+    font-size: 1.7rem;
 }
 
 .prices__buy{
@@ -623,6 +631,7 @@ body {
 .prices__btn{
     display: inline-block;
     padding: 1.2rem 3.1rem;
+    font-size: 2.5rem;
     border: 2px solid var(--color-border-reviews);
     box-shadow: 0 10px 10px -8px var(--color-border-reviews) ;
     border-radius: 3rem;
@@ -636,7 +645,7 @@ body {
 }
 
 .prices__reward{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     padding: 0.6rem 0;
 }
 
@@ -660,13 +669,13 @@ body {
 }
 
 .extra__icon{
-    font-size: 3.3rem;
+    font-size: 4.5rem;
     color: var(--color-secondary);
     margin-bottom: 1rem;
 }
 
-.extra__suvtitle{
-    font-size: 1.5rem;
+.extra__subtitle{
+    font-size: 2rem;
     margin: 1.5rem;
 }
 
@@ -712,12 +721,12 @@ body {
 .timeline__year{
     margin: 3px 0;
     line-height: 1.9rem;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
 }
 
 .timeline__company{
     display: block;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     font-weight: 300;
     color: var(--color-company);
 }
@@ -729,12 +738,12 @@ body {
 }
 
 .timeline__title{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     margin-bottom: 0.3rem;
 }
 
 .timeline__text{
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 
@@ -789,13 +798,13 @@ body {
 }
 
 .skills__text{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     line-height: 1.4rem;
     margin-bottom: 0.4rem;
 }
 
 .skills__number{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     line-height: 1.4rem;
     margin-bottom: 0.4rem;
     color: var(--color-subtitle);
@@ -841,7 +850,7 @@ body {
 .knowledges__option{
     padding: 0.4rem 1rem;
     margin: 0.3rem 0.3rem;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     background-color: var(--color-secondary);
     border-radius: 0.3rem;
     color: var(--color-principal);
@@ -882,19 +891,19 @@ body {
 }
 
 .certificate__title{
-    font-size: 1.7rem;
+    font-size: 2rem;
     margin-bottom: 0.5rem;
 }
 
 .certificate__id{
     display: block;
     margin-bottom: 0.3rem;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color: var(--color-subtitle);
 }
 
 .certificate__date{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: var(--color-subtitle);
 }
 
@@ -912,7 +921,7 @@ body {
 }
 
 .portfolio__option{
-    font-size: 1.4rem;
+    font-size: 2rem;
     opacity: 0.7;
 }
 
@@ -1067,7 +1076,7 @@ body {
 
 .article__date{
     display: block;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     font-weight: 300;
     color: var(--color-subtitle);
 }
@@ -1098,12 +1107,12 @@ body {
 }
 
 .contact__icon{
-    font-size: 3.3rem;
+    font-size: 4rem;
     color: var(--color-secondary);
 }
 
 .contact__subtitle{
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     margin-top: 1rem;
 }
 
@@ -1115,6 +1124,7 @@ body {
 .form__container{
     display: flex;
     flex-direction: row;
+    margin-top: 2rem;
 }
 
 .form__left{
@@ -1124,7 +1134,7 @@ body {
 
 .form__group{
     position: relative;
-    margin-bottom: 2.5rem;
+    margin-bottom: 4rem;
 }
 
 .form__input{
@@ -1159,10 +1169,11 @@ body {
 
 .form__input:focus~label,
 .form__input:not(:placeholder-shown)~label{
-    top: -2rem;
+    top: -2.5rem;
     left: 0;
     z-index: 1;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
+    font-weight: 700;
     color: var(--color-secondary);
 }
 
