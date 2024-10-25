@@ -1149,7 +1149,14 @@ body {
 
 }
 
+.form__rigth{
+    flex-basis: 50%;
+    max-width: 50%;
+    max-height: 100%;
+}
+
 .form__input--textarea{
     display: block;
-    height: 100%;
+    resize: none;
+    height: auto;
 }
