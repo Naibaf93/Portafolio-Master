@@ -1157,7 +1157,8 @@ body {
     pointer-events: none;
 }
 
-.form__input:focus~label{
+.form__input:focus~label,
+.form__input:not(:placeholder-shown)~label{
     top: -2rem;
     left: 0;
     z-index: 1;
