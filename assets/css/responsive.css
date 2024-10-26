@@ -2,15 +2,33 @@
     display: none;
 }    
 
-@media (max-width:1490px){
+@media (max-width:1600px){
     body{
         padding: 0;
     }
 
     .layout{
         min-width: auto;
-        width: 85%;
     }
+
+    .user-info__container-image{
+        width: 20rem;
+    }
+
+    .user-info__name {
+        font-size: 3rem;
+    }
+
+    .user-info__links {
+        margin-bottom: 2.5rem;
+    }
+
+    .user-info__btn{
+        padding: 4rem;
+        padding-top: 1.8rem;
+        padding-bottom: 1.8rem;
+    }
+
 }
 
 @media (max-width:1320px){
@@ -221,7 +239,7 @@
     }
 }
 
-@media (max-width:585px) {
+@media (max-width:700px) {
 
     .about__personal-info{
         flex-direction: column;
@@ -264,7 +282,7 @@
     }
 }
 
-@media (max-width:480px){
+@media (max-width:550px){
     
     .page__name {
         font-size: 4.8rem;
