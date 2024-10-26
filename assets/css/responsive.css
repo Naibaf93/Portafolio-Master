@@ -241,6 +241,10 @@
 
 @media (max-width:700px) {
 
+    .page__name{
+        font-size: 6rem;
+    }
+
     .about__personal-info{
         flex-direction: column;
     }
