@@ -19,4 +19,14 @@ document.addEventListener("DOMContentLoaded", (event) => {
             icon__xmark.style.opacity = 0;
         }
     });
+
+    window.addEventListener("resize", () => {
+        let size = parseInt(document.body.clientWidth);
+
+        if(size <= 1060) {
+            aside.classList.remove("layout__aside--visible"); 
+            icon__bars.style.opacity = 1;
+            icon__xmark.style.opacity = 0;
+        }
+    });
 });
