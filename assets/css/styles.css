@@ -90,7 +90,7 @@ body {
 .user-info__container-image{
     position: relative;
     display: inline-block;
-    width: 25rem;
+    width: 24rem;
     margin-top: 5rem;
     z-index: 1;
 }
